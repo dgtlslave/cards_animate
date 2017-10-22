@@ -1,10 +1,13 @@
 
 $(document).ready(function() {
 
-  $(this).on('click', function() {
-      $('.card_r').toggleClass('card_r_rotate');
-      $('.card_a').toggleClass('card_a_rotate');
-  });
+
+    $('.steck').on('click', function(e) {
+
+        $(this).find('.card_r').toggleClass('card_r_rotate');
+        $(this).find('.card_a').toggleClass('card_a_rotate');
+    });
+
 
 });
 
