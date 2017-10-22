@@ -1,0 +1,126 @@
+.card_a {
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+  border: 1px solid #000;
+  border-radius: 15px;
+  background: #000 url(../img/bee.png) center no-repeat;
+  background-size: contain;
+  -webkit-box-shadow: -1px 7px 24px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 7px 24px 0px rgba(0, 0, 0, 0.75);
+  margin: 15px;
+  -webkit-transition: .4s ease-in;
+  -o-transition: .4s ease-in;
+  transition: .4s ease-in;
+  -webkit-transition-property: background, -webkit-transform;
+  transition-property: background, -webkit-transform;
+  -o-transition-property: transform, background;
+  transition-property: transform, background;
+  transition-property: transform, background, -webkit-transform;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg); }
+
+.card_r {
+  position: absolute;
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+  border: 1px solid #ccc;
+  background: #ccc;
+  border-radius: 15px;
+  -webkit-box-shadow: -1px 7px 24px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 7px 24px 0px rgba(0, 0, 0, 0.75);
+  margin: 15px;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+  z-index: 1;
+  -webkit-transition: .4s ease-in;
+  -o-transition: .4s ease-in;
+  transition: .4s ease-in;
+  -webkit-transition-property: background, -webkit-transform;
+  transition-property: background, -webkit-transform;
+  -o-transition-property: transform, background;
+  transition-property: transform, background;
+  transition-property: transform, background, -webkit-transform;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+.card_nom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 60px; }
+
+.steck_box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+
+.steck {
+  -webkit-perspective: 800px;
+  perspective: 800px; }
+
+.card_r_rotate {
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg); }
+
+.card_a_rotate {
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg); }
+
+/* Layout */
+.ba-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1200px; }
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button {
+  -webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -o-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in; }
+
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button {
+  display: inline-block; }
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  -webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -o-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in; }

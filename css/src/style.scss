@@ -1,0 +1,151 @@
+body{
+
+}
+
+.card_a {
+	display: inline-block;
+	width: 200px;
+	height: 300px;
+	border: 1px solid #000;
+	border-radius: 15px;
+	background: #000 url(../img/bee.png) center no-repeat;
+	background-size: contain;
+	box-shadow: -1px 7px 24px 0px rgba(0,0,0,0.75);
+	margin: 15px;
+	// z-index: 1;
+	transition: .4s ease-in;
+	transition-property: transform, background;
+	transform-style: preserve-3d;
+	backface-visibility: hidden;
+	transform: rotateY(-180deg);
+}
+
+.card_r {
+	position: absolute;
+	display: inline-block;
+	width: 200px;
+	height: 300px;
+	border: 1px solid #ccc;
+	background: #ccc;
+	border-radius: 15px;
+	box-shadow: -1px 7px 24px 0px rgba(0,0,0,0.75);
+	margin: 15px;
+	transition: .3s;
+	z-index: 1;
+	transition: .4s ease-in;
+	transition-property: transform, background;
+	backface-visibility: hidden;
+
+	// &:hover {
+	// 	transform: rotateY(-180deg);
+	// }
+	//
+	// &:hover .card_a {
+	// 	transform: rotateY(180deg);
+	// }
+}
+
+// .steck {
+//
+// 	&:hover {
+// 		transform: rotateY(-180deg);
+// 	}
+//
+// 	&:hover .card_a {
+// 		transform: rotateY(180deg);
+// 	}
+// }
+//
+// .card_cross {
+// 	content: '&#9827';
+// }
+
+.card_nom {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 60px;
+}
+
+.steck_box {
+	display: flex;
+	flex-direction: row;
+}
+
+.steck {
+	// margin-top: 100px;
+	 perspective: 800px;
+}
+	// &:hover {
+.card_r_rotate {
+	transform: rotateY(-180deg);
+ }
+.card_a_rotate {
+	transform: rotateY(0deg);
+ }
+	// }
+
+
+
+
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+
+}
+
+
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
